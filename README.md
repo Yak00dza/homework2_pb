@@ -1,5 +1,5 @@
 # The memory game
-
+This is a CLI recreation of a popular card matching game. The game youses A1 coordinate system (e.g. C2, D5) and runs entirely from CLI.  
 # How to play?
 The game loop is as follows:
 1) You pick a card and it becomes flipped.
