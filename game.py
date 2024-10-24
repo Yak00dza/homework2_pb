@@ -55,7 +55,7 @@ def get_tile_from_user(grid):
 
 def generate_char(grid):
     randval  = random.random() #randval between 0 and 1
-    threshhold = (grid.total_chars - grid.unique_chars) / grid.total_chars #randval below threshhold result in a new char
+    threshhold = (grid.total_chars - grid.unique_chars) / grid.total_chars #randval below threshhold resultі in a new char
     if len(grid.present_chars) == 0:
         randval = 0
     if randval < threshhold:
